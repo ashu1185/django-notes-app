@@ -24,10 +24,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-
-# Ignore data directories and DB files
+# Ignore runtime data and DB files
 data/
-*/data/
+**/data/
 mysql/
 **/mysql/
 *.sql
@@ -35,13 +34,13 @@ mysql/
 *.db
 *.ibd
 *.ib_logfile*
-#innodb*
 *#innodb*
 *.pid
 *.sock
 
-# Node / Python deps if you use multi-stage builds (optional)
+# Typical excludes
+.git
 node_modules
 venv
 .env
-.git
+.DS_Store
