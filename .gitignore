@@ -35,6 +35,7 @@ mysql/
 *.ibd
 *.ib_logfile*
 *#innodb*
+*#innodb_redo*
 *.pid
 *.sock
 
