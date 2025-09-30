@@ -27,13 +27,16 @@ yarn-error.log*
 
 # Ignore data directories and DB files
 data/
-**/data/
+*/data/
+mysql/
+**/mysql/
 *.sql
 *.sqlite
 *.db
 *.ibd
 *.ib_logfile*
-*/*.dblwr
+#innodb*
+*#innodb*
 *.pid
 *.sock
 
